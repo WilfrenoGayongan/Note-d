@@ -1,4 +1,33 @@
 extends main.pug 
-
+block css 
+    link(rel="stylesheet", href="../css/home.css")
 block content
-    h1  Hello!!
+    section 
+        .header  
+            .logo 
+                img(src="../icons/gunter.png", alt="Dance!!") 
+            .search__bar
+                i 
+                input(type="text", name="searchBar", placeholder="Search..")
+                button
+            .upper__user
+                i
+                h4 name 
+            .message 
+                i
+            .notification
+                i
+        .body
+            .left__section
+
+            .middle__section
+                .feed__creator
+                    img(src="../icons/gunter.png", alt="Dance!!")
+                    .feed__form 
+                        input(type="text", name="feedInput", placeholder="Whats on your mind?")
+                        button
+                ul.feed__list
+
+            .right__section 
+
+    script(src="../js/home.js") 

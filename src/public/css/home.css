@@ -1,0 +1,108 @@
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1vh;
+    position: sticky;
+    background-color: white;
+    z-index: 99;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px 
+              rgba(0, 0, 0, 0.75); 
+}
+
+.logo {
+
+    background-color: white;
+}
+.logo > img, .feed__creator > img {
+
+    height: 7vh;
+    width: 7vh;
+
+}
+.search__bar > input {
+
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+.search__bar > button {
+
+    display: none;
+}
+.search__bar {
+
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+    background-color: #eff2f5;
+    border-radius: 99px;
+}
+
+.body {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: inherit;
+    height: 90vh;
+
+
+}
+
+.left__section{
+
+    flex: 1;
+
+}
+
+.middle__section {
+
+    display: flex;
+    flex: 2;
+    z-index: 80;
+    height: inherit;
+}
+
+
+.feed__creator {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+    margin: 1vh;
+    
+
+}
+
+.feed__form {
+
+    display: flex;
+    align-items: center;
+    margin: 1vh;
+    padding: 1vh;
+    background-color: #eff2f5;
+    border-radius: 99px;
+    
+}
+.feed__form > input {
+
+    border-style: none;
+    background-color: transparent;
+    outline-width: 0;
+
+}
+
+.feed__form > button {
+
+    display: none;
+}
+.right__section {
+
+    flex: 1;
+}
